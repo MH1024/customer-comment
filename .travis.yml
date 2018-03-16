@@ -1,0 +1,22 @@
+#.travis.yml
+
+language: node_js
+node_js:
+  - "8"
+dist: trusty
+
+branches:
+  only:
+    - master
+addons:
+  chrome: stable
+
+script:
+  - ng test --browser ChromeHeadless --single-run
+  - ng e2e
+  - ng build --prod
+
+notifications:
+  email:
+    on_failure: change
+    on_success: change
