@@ -12,7 +12,6 @@ addons:
   chrome: stable
 
 script:
-  - ng test --browser ChromeHeadless --single-run
   - ng e2e
   - ng build --prod
 
