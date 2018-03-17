@@ -12,8 +12,12 @@ addons:
   chrome: stable
 
 script:
-  - ng e2e
   - ng build --prod
+deploy:
+  provider: heroku
+  api_key: $HEROKU_AUTH_TOKEN
+  app:
+    master: customercomment
 
 notifications:
   email:
