@@ -12,7 +12,7 @@ addons:
   chrome: stable
 
 script:
-  - ng build --prod
+  - ng build --aot --prod
 deploy:
   provider: heroku
   api_key: $HEROKU_AUTH_TOKEN
