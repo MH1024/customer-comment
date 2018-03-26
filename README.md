@@ -1,8 +1,34 @@
 # CustomerComment
+[![Build Status](https://travis-ci.org/MH1024/customer-comment.svg?branch=master)](https://travis-ci.org/MH1024/customer-comment)
+
+[![GitHub license](https://img.shields.io/github/license/MH1024/customer-comment)](https://github.com/MH1024/delivery-hub)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Front end part of online customer comment submit system. The In-memory Web API module as the data service.
 
-[![Build Status](https://travis-ci.org/MH1024/customer-comment.svg?branch=master)](https://travis-ci.org/MH1024/customer-comment)
+## Developing environment
+
+- Angular `5.2.0`
+- Nodejs `8.10.0`
+
+## Try it out
+
+See the sample app in action [on the website](https://customercomment.herokuapp.com/).
+
+## Installing
+
+```shell
+git clone https://github.com/MH1024/customer-comment.git
+cd customer-comment/
+npm install
+npm start
+```
+
+## Continuous Integration
+
+Continuous integration via travis-ci [ci details](https://travis-ci.org/MH1024/customer-comment).
+If build passses. it is deployed to Firebase.
 
 ## Development server
 
