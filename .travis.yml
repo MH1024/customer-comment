@@ -18,7 +18,7 @@ branches:
 
 script:
   - ng lint
-  - xvfb-run -a npm run test -- --single-run
+
   - ng build --aot --prod
 deploy:
   provider: heroku
