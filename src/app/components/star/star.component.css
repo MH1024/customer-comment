@@ -1,0 +1,28 @@
+.emoji {
+    font-size: 42px;
+    opacity: .5;
+    transition: all .1s ease-in-out;
+    line-height: 52px;
+}
+  
+.emoji span:hover,
+  input[type="radio"]:checked + .emoji {
+    font-size: 48px;
+    line-height: 48px;
+    opacity: 1;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+.reactions-container {
+    padding: 10px 0;
+}
