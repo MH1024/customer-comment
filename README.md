@@ -1,11 +1,13 @@
 # CustomerComment
 [![Build Status](https://travis-ci.org/MH1024/customer-comment.svg?branch=master)](https://travis-ci.org/MH1024/customer-comment)
 
-[![GitHub license](https://img.shields.io/github/license/MH1024/customer-comment)](https://github.com/MH1024/delivery-hub)
+[![GitHub license](https://img.shields.io/github/license/MH1024/customer-comment)](https://github.com/MH1024/customer-comment)
 
+Front end part of online customer feedback system. The In-memory Web API module as the data service.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
-Front end part of online customer comment submit system. The In-memory Web API module as the data service.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3. 
+UI using [Angular Material 2](https://material.angular.io/)
+
 
 ## Developing environment
 
